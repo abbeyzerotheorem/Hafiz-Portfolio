@@ -6,6 +6,7 @@ import { ProjectsSection } from '@/app/sections/projects';
 import { CaseStudySection } from '@/app/sections/case-study';
 import { AboutSection } from '@/app/sections/about';
 import { ContactSection } from '@/app/sections/contact';
+import { EducationSection } from '@/app/sections/education';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <ProjectsSection />
         <CaseStudySection />
         <AboutSection />
+        <EducationSection />
         <ContactSection />
       </main>
       <Footer />
