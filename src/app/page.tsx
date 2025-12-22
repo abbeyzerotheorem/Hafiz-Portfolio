@@ -1,3 +1,26 @@
+import { Header } from '@/components/header';
+import { Footer } from '@/components/footer';
+import { ParallaxBackground } from '@/components/parallax-background';
+import { HeroSection } from '@/app/sections/hero';
+import { ProjectsSection } from '@/app/sections/projects';
+import { CaseStudySection } from '@/app/sections/case-study';
+import { AboutSection } from '@/app/sections/about';
+import { ContactSection } from '@/app/sections/contact';
+
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="relative flex flex-col min-h-screen overflow-x-hidden">
+      <ParallaxBackground />
+      <Header />
+      <main className="flex-grow z-10">
+        <HeroSection />
+        <ProjectsSection />
+        <CaseStudySection />
+        <AboutSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </div>
+  );
 }

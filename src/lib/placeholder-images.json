@@ -1,3 +1,142 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "logo-1",
+      "description": "YOUNG STARS logo",
+      "imageUrl": "https://images.unsplash.com/photo-1744390166851-82056c6552d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY2MzgxMzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
+    },
+    {
+      "id": "logo-2",
+      "description": "Bakers Kitchen logo",
+      "imageUrl": "https://images.unsplash.com/photo-1752876761287-c69ce4f28449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYWtlcnklMjBsb2dvfGVufDB8fHx8MTc2NjM3ODgzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bakery logo"
+    },
+    {
+      "id": "logo-3",
+      "description": "ZIM LOGISTICS LTD logo",
+      "imageUrl": "https://images.unsplash.com/photo-1760786841098-06a0a1a5d661?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3MlMjBsb2dvfGVufDB8fHx8MTc2NjQwNDY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logistics logo"
+    },
+    {
+      "id": "logo-4",
+      "description": "BADAR UL HARMANI logo",
+      "imageUrl": "https://images.unsplash.com/photo-1733572250496-a7694b9195f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBsb2dvfGVufDB8fHx8MTc2NjQwNDY5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury logo"
+    },
+    {
+      "id": "logo-5",
+      "description": "Creative Circle logo",
+      "imageUrl": "https://images.unsplash.com/photo-1532623034127-3d92b01fb3c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmVhdGl2ZSUyMGxvZ298ZW58MHx8fHwxNzY2MzkwMDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative logo"
+    },
+    {
+      "id": "poster-1",
+      "description": "Music Fest 2024 poster",
+      "imageUrl": "https://images.unsplash.com/photo-1610616817237-dff4b556cce6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHBvc3RlcnxlbnwwfHx8fDE3NjY0MDQ2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music poster"
+    },
+    {
+      "id": "poster-2",
+      "description": "Art Exhibition poster",
+      "imageUrl": "https://images.unsplash.com/photo-1706452031249-1520c2a78d5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcnQlMjBwb3N0ZXJ8ZW58MHx8fHwxNzY2MzI1MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "art poster"
+    },
+    {
+      "id": "poster-3",
+      "description": "Film Noir Marathon poster",
+      "imageUrl": "https://images.unsplash.com/photo-1611587597157-d7e19e8dfe00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtJTIwcG9zdGVyfGVufDB8fHx8MTc2NjQwNDY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "film poster"
+    },
+    {
+      "id": "poster-4",
+      "description": "Tech Conference poster",
+      "imageUrl": "https://images.unsplash.com/photo-1724204400833-19548ab66a91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVjaCUyMHBvc3RlcnxlbnwwfHx8fDE3NjY0MDQ2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech poster"
+    },
+    {
+      "id": "poster-5",
+      "description": "Summer Sale poster",
+      "imageUrl": "https://images.unsplash.com/photo-1700847304964-9fe563059742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWxlJTIwcG9zdGVyfGVufDB8fHx8MTc2NjQwNDY5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sale poster"
+    },
+    {
+      "id": "poster-6",
+      "description": "Eco Awareness poster",
+      "imageUrl": "https://images.unsplash.com/photo-1707209598587-e290ed839139?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuYXR1cmUlMjBwb3N0ZXJ8ZW58MHx8fHwxNzY2NDA0Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nature poster"
+    },
+    {
+      "id": "poster-7",
+      "description": "Indie Game Launch poster",
+      "imageUrl": "https://images.unsplash.com/photo-1579798065595-0d8134bf293c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1lJTIwcG9zdGVyfGVufDB8fHx8MTc2NjQwNDY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "game poster"
+    },
+    {
+      "id": "poster-8",
+      "description": "Poetry Night poster",
+      "imageUrl": "https://images.unsplash.com/photo-1640146459297-eb4f1b084cc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVudCUyMHBvc3RlcnxlbnwwfHx8fDE3NjY0MDQ2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "event poster"
+    },
+    {
+      "id": "ui-1",
+      "description": "Mobile Banking App UI",
+      "imageUrl": "https://images.unsplash.com/photo-1730818027503-1116dc7a27ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcHAlMjBzY3JlZW58ZW58MHx8fHwxNzY2MzQ0MjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screen"
+    },
+    {
+      "id": "ui-2",
+      "description": "Travel Booking Website UI",
+      "imageUrl": "https://images.unsplash.com/photo-1559028012-481c04fa702d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8MTc2NjMxMDk5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website design"
+    },
+    {
+      "id": "ui-3",
+      "description": "Fitness Tracker Dashboard UI",
+      "imageUrl": "https://images.unsplash.com/photo-1653933686802-86d21b59b03b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjYzMTAxNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard ui"
+    },
+    {
+      "id": "ui-4",
+      "description": "E-commerce Store UI",
+      "imageUrl": "https://images.unsplash.com/photo-1599824701954-d1d141704de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB1aXxlbnwwfHx8fDE3NjY0MDQ2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce ui"
+    },
+    {
+      "id": "brand-1",
+      "description": "Starlight Coffee branding",
+      "imageUrl": "https://images.unsplash.com/photo-1713623069198-390c015e115c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBicmFuZGluZ3xlbnwwfHx8fDE3NjY0MDQ2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee branding"
+    },
+    {
+      "id": "brand-2",
+      "description": "Urban Edge Apparel branding",
+      "imageUrl": "https://images.unsplash.com/photo-1614231125961-38323d6c485b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFzaGlvbiUyMGJyYW5kfGVufDB8fHx8MTc2NjQwNDY5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion brand"
+    },
+    {
+      "id": "brand-3",
+      "description": "Innovate Solutions branding",
+      "imageUrl": "https://images.unsplash.com/photo-1617671536627-ad3218167479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWNoJTIwYnJhbmR8ZW58MHx8fHwxNzY2NDA0Njk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech brand"
+    },
+    {
+      "id": "brand-4",
+      "description": "Greenleaf Organics branding",
+      "imageUrl": "https://images.unsplash.com/photo-1676904919026-f3501579dcde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zm9vZCUyMGJyYW5kaW5nfGVufDB8fHx8MTc2NjQwNDY5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food branding"
+    },
+    {
+      "id": "brand-5",
+      "description": "Momentum Fitness branding",
+      "imageUrl": "https://images.unsplash.com/photo-1747995371003-f920a24e7b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmaXRuZXNzJTIwYnJhbmR8ZW58MHx8fHwxNzY2NDA0Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fitness brand"
+    },
+    {
+      "id": "about-photo",
+      "description": "Professional photo of Hafiz Ali Zaib",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjYzMTAyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    }
+  ]
 }
