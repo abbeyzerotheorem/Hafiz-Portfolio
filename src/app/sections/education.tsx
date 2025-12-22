@@ -28,14 +28,14 @@ export function EducationSection() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-stretch">
           <div className="flex flex-col justify-center">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-12 flex items-center gap-4">
+            <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-12 flex items-center gap-4 flex-wrap">
               Background of <span className="text-accent">Education</span>
               <GraduationCap className="w-10 h-10 text-accent" />
             </h2>
             <div className="space-y-10">
               {educationData.map((edu, index) => (
-                <div key={index} className="grid md:grid-cols-[1fr_2fr] gap-x-8 gap-y-2 border-b border-white/10 pb-6">
-                  <div>
+                <div key={index} className="grid md:grid-cols-[1fr_2fr] gap-x-8 gap-y-4 border-b border-white/10 pb-6">
+                  <div className='md:text-right'>
                     <p className="text-slate-400 font-mono text-sm">{edu.date}</p>
                     <h3 className="font-headline text-xl font-semibold text-white mt-1">{edu.school}</h3>
                   </div>
