@@ -25,15 +25,15 @@ export function CaseStudySection() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="left-[-50px] bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground" />
-              <CarouselNext className="right-[-50px] bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground"/>
+              <CarouselPrevious className="left-2 md:left-[-50px] bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground" />
+              <CarouselNext className="right-2 md:right-[-50px] bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground"/>
             </Carousel>
           </div>
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 text-center lg:text-left">
             <h3 className="font-headline text-3xl md:text-4xl font-bold text-white mb-4">
               Featured Case Study: Logo Design
             </h3>
-            <p className="text-slate-300 mb-8">
+            <p className="text-slate-300 mb-8 max-w-xl mx-auto lg:mx-0">
               This collection showcases my approach to logo design, focusing on creating unique and scalable visual identities for diverse clients. From the modern and dynamic 'YOUNG STARS' to the corporate strength of 'ZIM LOGISTICS LTD,' each logo is crafted with precision and a deep understanding of the brand's core message.
             </p>
             <Button size="lg" className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20">
