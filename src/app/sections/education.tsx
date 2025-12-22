@@ -24,7 +24,7 @@ export function EducationSection() {
   const educationImage = getImageById('education-background');
 
   return (
-    <section id="education" className="py-24 sm:py-32 bg-background/80">
+    <section id="education" className="py-24 sm:py-32 bg-background/80 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-stretch">
           <div className="flex flex-col justify-center">
