@@ -25,8 +25,8 @@ export function CaseStudySection() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="left-2 md:-left-12 bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground" />
-              <CarouselNext className="right-2 md:-right-12 bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground"/>
+              <CarouselPrevious className="left-2 bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground md:-left-12" />
+              <CarouselNext className="right-2 bg-white/10 border-white/20 hover:bg-accent hover:text-accent-foreground md:-right-12"/>
             </Carousel>
           </div>
           <div className="order-1 lg:order-2 text-center lg:text-left">
