@@ -7,6 +7,7 @@ import { CaseStudySection } from '@/app/sections/case-study';
 import { AboutSection } from '@/app/sections/about';
 import { ContactSection } from '@/app/sections/contact';
 import { EducationSection } from '@/app/sections/education';
+import { ScrollToTopButton } from '@/components/scroll-to-top-button';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <ContactSection />
       </main>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }
