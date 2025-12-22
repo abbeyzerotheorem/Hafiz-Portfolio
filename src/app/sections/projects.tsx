@@ -43,9 +43,23 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
 export function ProjectsSection() {
   const categories: ('All' | ProjectCategory)[] = ['All', 'Logos', 'Posters', 'UI Design', 'Brands Managed'];
   const [activeCategory, setActiveCategory] = useState<'All' | ProjectCategory>('All');
+  const [showAll, setShowAll] = useState(false);
+  const initialProjectCount = 6;
 
-  const filteredProjects = (activeCategory === 'All' ? projects : projects.filter(p => p.category === activeCategory))
-    .map(p => ({ ...p, image: getImageById(p.imageId) }));
+  const handleCategoryChange = (category: 'All' | ProjectCategory) => {
+    setActiveCategory(category);
+    setShowAll(false);
+  }
+
+  const allProjects = projects.map(p => ({ ...p, image: getImageById(p.imageId) }));
+
+  const filteredProjects = activeCategory === 'All'
+    ? allProjects
+    : allProjects.filter(p => p.category === activeCategory);
+
+  const visibleProjects = activeCategory === 'All' && !showAll 
+    ? filteredProjects.slice(0, initialProjectCount) 
+    : filteredProjects;
 
   return (
     <section id="projects" className="py-24 sm:py-32">
@@ -59,7 +73,7 @@ export function ProjectsSection() {
           {categories.map(category => (
             <Button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryChange(category)}
               variant="outline"
               className={cn(
                 "rounded-full backdrop-blur-sm border-white/10 transition-all duration-300 text-white font-medium",
@@ -74,10 +88,22 @@ export function ProjectsSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map(project => (
+          {visibleProjects.map(project => (
             project.image && <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+
+        {activeCategory === 'All' && filteredProjects.length > initialProjectCount && !showAll && (
+          <div className="text-center mt-12">
+            <Button
+              onClick={() => setShowAll(true)}
+              size="lg"
+              className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20"
+            >
+              View More
+            </Button>
+          </div>
+        )}
       </div>
     </section>
   );
