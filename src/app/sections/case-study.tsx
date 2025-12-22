@@ -9,7 +9,7 @@ export function CaseStudySection() {
   const logos = caseStudyLogoIds.map(id => getImageById(id)).filter(Boolean);
 
   return (
-    <section id="case-study" className="py-24 sm:py-32 bg-background/50">
+    <section id="case-study" className="py-24 sm:py-32 bg-background/50 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
