@@ -12,7 +12,7 @@ import { ScrollToTopButton } from '@/components/scroll-to-top-button';
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col min-h-screen overflow-x-hidden">
+    <div className="relative flex flex-col min-h-screen">
       <ParallaxBackground />
       <Header />
       <main className="flex-grow z-10">
