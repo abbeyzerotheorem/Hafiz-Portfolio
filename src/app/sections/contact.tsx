@@ -1,3 +1,6 @@
+'use client';
+
+import * as React from 'react';
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
@@ -10,6 +13,32 @@ const contactDetails = [
 ];
 
 export function ContactSection() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target as HTMLFormElement);
+
+    formData.append("access_key", "01857a73-4a58-4d62-89ba-6471bdd4fe2b");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      (event.target as HTMLFormElement).reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+
   return (
     <section id="contact" className="py-24 sm:py-32">
       <div className="container mx-auto px-4">
@@ -21,17 +50,27 @@ export function ContactSection() {
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="bg-white/[.08] backdrop-blur-[12px] border border-white/[.1] rounded-2xl p-8">
             <h3 className="font-headline text-2xl font-bold mb-6">Send me a message</h3>
-            <form className="space-y-4">
-              <Input 
+            <form onSubmit={onSubmit} className="space-y-4">
+              <Input
+                type="text"
+                name="name"
                 placeholder="Your Name" 
-                className="bg-white/10 backdrop-blur-sm border-white/20 h-12 rounded-lg focus:ring-accent focus:border-accent" />
+                className="bg-white/10 backdrop-blur-sm border-white/20 h-12 rounded-lg focus:ring-accent focus:border-accent"
+                required
+              />
               <Input 
-                type="email" 
+                type="email"
+                name="email"
                 placeholder="Your Email" 
-                className="bg-white/10 backdrop-blur-sm border-white/20 h-12 rounded-lg focus:ring-accent focus:border-accent" />
+                className="bg-white/10 backdrop-blur-sm border-white/20 h-12 rounded-lg focus:ring-accent focus:border-accent"
+                required
+              />
               <Textarea 
+                name="message"
                 placeholder="Your Message" 
-                className="bg-white/10 backdrop-blur-sm border-white/20 rounded-lg min-h-[120px] focus:ring-accent focus:border-accent" />
+                className="bg-white/10 backdrop-blur-sm border-white/20 rounded-lg min-h-[120px] focus:ring-accent focus:border-accent"
+                required
+              />
               <Button 
                 type="submit"
                 size="lg" 
@@ -39,6 +78,7 @@ export function ContactSection() {
                 Send Message <Send className="ml-2 h-4 w-4" />
               </Button>
             </form>
+            {result && <span className="mt-4 text-center block text-slate-300">{result}</span>}
           </div>
           
           <div className="flex flex-col justify-center space-y-6">
