@@ -4,6 +4,7 @@ import { ParallaxBackground } from '@/components/parallax-background';
 import { HeroSection } from '@/app/sections/hero';
 import { ProjectsSection } from '@/app/sections/projects';
 import { AboutSection } from '@/app/sections/about';
+import { SkillsSection } from '@/app/sections/skills';
 import { ContactSection } from '@/app/sections/contact';
 import { EducationSection } from '@/app/sections/education';
 import { ScrollToTopButton } from '@/components/scroll-to-top-button';
@@ -17,8 +18,9 @@ export default function Home() {
       <Header />
       <main className="flex-grow z-10">
         <HeroSection />
-        <ProjectsSection />
         <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
         <EducationSection />
         <ContactSection />
       </main>
