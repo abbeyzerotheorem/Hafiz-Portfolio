@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
 interface ShapeProps extends React.SVGProps<SVGSVGElement> {
@@ -25,7 +25,7 @@ const Plus = (props: ShapeProps) => (
     </svg>
 )
 
-const layers = [
+const initialLayers = [
     { Component: Diamond, top: '15%', left: '10%', size: 60, color: 'text-accent/10', rotate: 45, delay: 0 },
     { Component: Square, top: '25%', left: '85%', size: 80, color: 'text-white/5', rotate: 15, delay: 1 },
     { Component: Plus, top: '5%', left: '40%', size: 40, color: 'text-accent/10', rotate: 0, delay: 2 },
@@ -39,6 +39,21 @@ const layers = [
 ];
 
 export const ParallaxBackground = () => {
+  const [layers, setLayers] = useState<any[]>([]);
+
+  useEffect(() => {
+    setLayers(
+      initialLayers.map(layer => ({
+        ...layer,
+        animationDuration: `${Math.random() * 5 + 5}s`
+      }))
+    );
+  }, []);
+
+  if (layers.length === 0) {
+    return <div className="absolute inset-0 -z-10 h-full w-full overflow-hidden" />;
+  }
+
   return (
     <div className="absolute inset-0 -z-10 h-full w-full overflow-hidden">
       {layers.map((layer, i) => (
@@ -52,7 +67,7 @@ export const ParallaxBackground = () => {
             height: layer.size,
             transform: `rotate(${layer.rotate}deg)`,
             animationDelay: `${layer.delay * 0.5}s`,
-            animationDuration: `${Math.random() * 5 + 5}s`
+            animationDuration: layer.animationDuration
           }}
         >
           <layer.Component className="w-full h-full"/>
