@@ -4,12 +4,19 @@ import * as React from 'react';
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Instagram, Facebook } from 'lucide-react';
 
 const contactDetails = [
   { icon: Mail, text: "alizaib.shahid@icloud.com", href: "mailto:alizaib.shahid@icloud.com" },
+  { icon: Mail, text: "alizaibshahid@gmail.com", href: "mailto:alizaibshahid@gmail.com" },
+  { icon: Mail, text: "azgraphix.uk@proton.me", href: "mailto:azgraphix.uk@proton.me" },
   { icon: Phone, text: "+92 301 2828009", href: "tel:+923012828009" },
-  { icon: MapPin, text: "Saima Luxury homes, Karachi, Pakistan", href: "#" }
+  { icon: MapPin, text: "Saima Luxury homes, Karachi, Pakistan", href: "#" },
+  { icon: Instagram, text: "AZGraphix.uk", href: "https://www.instagram.com/azgraphix.uk/" },
+  { icon: Instagram, text: "Alizaibshahid_official", href: "https://www.instagram.com/alizaibshahid_official/" },
+  { icon: Facebook, text: "AZGraphix.uk", href: "https://www.facebook.com/azgraphix.uk" },
+  { icon: Facebook, text: "Alizaibshahofficial", href: "https://www.facebook.com/alizaibshahofficial" },
+
 ];
 
 export function ContactSection() {
@@ -83,7 +90,7 @@ export function ContactSection() {
           
           <div className="flex flex-col justify-center space-y-6">
             {contactDetails.map((item, index) => (
-              <a key={index} href={item.href} className="flex items-center gap-4 group">
+              <a key={index} href={item.href} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <div className="p-3 rounded-xl bg-white/10 border border-white/10 backdrop-blur-md text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-all duration-300">
                   <item.icon className="w-6 h-6" />
                 </div>

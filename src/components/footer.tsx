@@ -1,16 +1,16 @@
 import Link from 'next/link';
-import { Instagram, Dribbble, Linkedin } from 'lucide-react';
+import { Instagram, Facebook, Linkedin } from 'lucide-react';
 
 const socialLinks = [
   {
-    href: "https://www.instagram.com/",
+    href: "https://www.instagram.com/azgraphix.uk/",
     icon: Instagram,
-    label: "Instagram"
+    label: "Instagram (AZGraphix)"
   },
   {
-    href: "https://dribbble.com/",
-    icon: Dribbble,
-    label: "Dribbble"
+    href: "https://www.facebook.com/azgraphix.uk",
+    icon: Facebook,
+    label: "Facebook (AZGraphix)"
   },
   {
     href: "https://www.linkedin.com/",
