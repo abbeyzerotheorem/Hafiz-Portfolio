@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { getImageById } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { FileText } from 'lucide-react';
 
 const stats = [
     { value: '50+', label: 'Design Shopify Stores' },
@@ -50,9 +51,17 @@ export function AboutSection() {
                 ))}
             </div>
 
-            <Button asChild size="lg" className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20">
-                <Link href="#contact">Get in Touch</Link>
-            </Button>
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
+              <Button asChild size="lg" className="rounded-full font-bold text-base bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                  <Link href="#contact">Get in Touch</Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                  <a href="/Hafiz.pdf" target="_blank" rel="noopener noreferrer">
+                      View CV
+                      <FileText className="ml-2 h-4 w-4" />
+                  </a>
+              </Button>
+            </div>
 
           </div>
         </div>

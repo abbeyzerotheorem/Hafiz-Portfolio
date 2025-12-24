@@ -3,7 +3,7 @@
     {
       "id": "hero-portrait",
       "description": "Stylish portrait of a designer",
-      "imageUrl": "https://images.unsplash.com/photo-1656338997878-279d71d48f6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY2Mzk0NDg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.pinimg.com/736x/cb/57/3e/cb573e49e2bc896092541c1466559c1a.jpg",
       "imageHint": "male portrait"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "about-photo",
       "description": "Professional photo of Hafiz Ali Zaib",
-      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjYzMTAyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.pinimg.com/1200x/d6/3b/6f/d63b6fed373eece63aeee874d6cc1f46.jpg",
       "imageHint": "professional portrait"
     },
     {
