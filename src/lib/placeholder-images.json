@@ -8,20 +8,20 @@
     },
     {
       "id": "logo-1",
-      "description": "YOUNG STARS logo",
-      "imageUrl": "https://images.unsplash.com/photo-1744390166851-82056c6552d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY2MzgxMzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "AZ GRAPHIX logo",
+      "imageUrl": "https://i.pinimg.com/1200x/7b/3d/d3/7b3dd3ec9dc073a48177efe890288468.jpg",
       "imageHint": "abstract logo"
     },
     {
       "id": "logo-2",
       "description": "Bakers Kitchen logo",
-      "imageUrl": "https://images.unsplash.com/photo-1752876761287-c69ce4f28449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYWtlcnklMjBsb2dvfGVufDB8fHx8MTc2NjM3ODgzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.pinimg.com/736x/a0/7c/08/a07c0809f24d4e2762cfb4c3c5325c02.jpg",
       "imageHint": "bakery logo"
     },
     {
       "id": "logo-3",
       "description": "ZIM LOGISTICS LTD logo",
-      "imageUrl": "https://images.unsplash.com/photo-1760786841098-06a0a1a5d661?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3MlMjBsb2dvfGVufDB8fHx8MTc2NjQwNDY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.pinimg.com/736x/34/0b/b9/340bb94a70ee9193068bde08ae4a5f60.jpg",
       "imageHint": "logistics logo"
     },
     {
@@ -44,15 +44,15 @@
     },
     {
       "id": "poster-2",
-      "description": "Art Exhibition poster",
-      "imageUrl": "https://images.unsplash.com/photo-1706452031249-1520c2a78d5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcnQlMjBwb3N0ZXJ8ZW58MHx8fHwxNzY2MzI1MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "art poster"
+      "description": "BNB Rice Glow Kit",
+      "imageUrl": "https://i.pinimg.com/736x/b7/8e/96/b78e96ba8115ee79dc3c00246852353c.jpg",
+      "imageHint": "BNB poster"
     },
     {
       "id": "poster-3",
-      "description": "Film Noir Marathon poster",
-      "imageUrl": "https://images.unsplash.com/photo-1611587597157-d7e19e8dfe00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtJTIwcG9zdGVyfGVufDB8fHx8MTc2NjQwNDY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "film poster"
+      "description": "Luxury Package poster",
+      "imageUrl": "https://i.pinimg.com/736x/8b/a8/bc/8ba8bc7fcadb30379d668bb7346dba70.jpg",
+      "imageHint": "Luxury Package poster"
     },
     {
       "id": "poster-4",
@@ -116,26 +116,26 @@
     },
     {
       "id": "brand-2",
-      "description": "Urban Edge Apparel branding",
-      "imageUrl": "https://images.unsplash.com/photo-1614231125961-38323d6c485b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFzaGlvbiUyMGJyYW5kfGVufDB8fHx8MTc2NjQwNDY5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Closetlux",
+      "imageUrl": "https://i.pinimg.com/736x/32/7b/4c/327b4cbd1252a0e15c8460476e07035f.jpg",
       "imageHint": "fashion brand"
     },
     {
       "id": "brand-3",
-      "description": "Innovate Solutions branding",
-      "imageUrl": "https://images.unsplash.com/photo-1617671536627-ad3218167479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWNoJTIwYnJhbmR8ZW58MHx8fHwxNzY2NDA0Njk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "ZAIB-E-HOOR",
+      "imageUrl": "https://i.pinimg.com/736x/1b/35/69/1b3569a68bf35d1fb84d9e74111991dc.jpg",
       "imageHint": "tech brand"
     },
     {
       "id": "brand-4",
-      "description": "Greenleaf Organics branding",
-      "imageUrl": "https://images.unsplash.com/photo-1676904919026-f3501579dcde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zm9vZCUyMGJyYW5kaW5nfGVufDB8fHx8MTc2NjQwNDY5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Haya Mirza",
+      "imageUrl": "https://i.pinimg.com/736x/05/51/40/0551403ff5d7148d59d20543d7bc0167.jpg",
       "imageHint": "food branding"
     },
     {
       "id": "brand-5",
-      "description": "Momentum Fitness branding",
-      "imageUrl": "https://images.unsplash.com/photo-1747995371003-f920a24e7b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmaXRuZXNzJTIwYnJhbmR8ZW58MHx8fHwxNzY2NDA0Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "She Trends",
+      "imageUrl": "https://i.pinimg.com/736x/09/84/5a/09845a32baf6f458669b57ab7d544317.jpg",
       "imageHint": "fitness brand"
     },
     {

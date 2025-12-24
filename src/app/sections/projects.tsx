@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -8,6 +9,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 type ProjectWithImage = (typeof projects)[0] & { image: ImagePlaceholder | undefined };
 
@@ -15,27 +17,41 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
   if (!project.image) return null;
 
   return (
-    <Card className="group overflow-hidden rounded-2xl bg-white/[.08] backdrop-blur-[12px] border border-white/[.1] shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-accent/20 hover:border-accent/50">
-      <CardContent className="p-0">
-        <div className="relative aspect-[4/3] overflow-hidden">
-          <Image
-            src={project.image.imageUrl}
-            alt={project.title}
-            fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            data-ai-hint={project.image.imageHint}
-          />
+    <Dialog>
+      <DialogTrigger asChild>
+        <Card className="group overflow-hidden rounded-2xl bg-white/[.08] backdrop-blur-[12px] border border-white/[.1] shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-accent/20 hover:border-accent/50 cursor-pointer">
+          <CardContent className="p-0">
+            <div className="relative aspect-[4/3] overflow-hidden">
+              <Image
+                src={project.image.imageUrl}
+                alt={project.title}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                data-ai-hint={project.image.imageHint}
+              />
+            </div>
+            <div className="p-6">
+              <div className="flex justify-between items-start">
+                <h3 className="font-headline text-xl font-bold text-white mb-2">{project.title}</h3>
+                <Badge variant="outline" className="border-accent/50 text-accent font-mono text-xs transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">{project.category}</Badge>
+              </div>
+              <p className="text-slate-400 text-sm transition-opacity duration-300 md:opacity-0 group-hover:opacity-100">{project.description}</p>
+            </div>
+          </CardContent>
+        </Card>
+      </DialogTrigger>
+      <DialogContent className="p-0 border-0 max-w-4xl bg-transparent">
+        <div className="relative aspect-video">
+           <Image
+              src={project.image.imageUrl}
+              alt={project.title}
+              fill
+              className="object-contain"
+            />
         </div>
-        <div className="p-6">
-          <div className="flex justify-between items-start">
-            <h3 className="font-headline text-xl font-bold text-white mb-2">{project.title}</h3>
-            <Badge variant="outline" className="border-accent/50 text-accent font-mono text-xs transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">{project.category}</Badge>
-          </div>
-          <p className="text-slate-400 text-sm transition-opacity duration-300 md:opacity-0 group-hover:opacity-100">{project.description}</p>
-        </div>
-      </CardContent>
-    </Card>
+      </DialogContent>
+    </Dialog>
   );
 }
 
