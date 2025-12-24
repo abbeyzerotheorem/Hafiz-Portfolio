@@ -26,20 +26,20 @@
     },
     {
       "id": "logo-4",
-      "description": "BADAR UL HARMANI logo",
-      "imageUrl": "https://images.unsplash.com/photo-1733572250496-a7694b9195f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBsb2dvfGVufDB8fHx8MTc2NjQwNDY5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "NEXIT logo",
+      "imageUrl": "https://i.pinimg.com/736x/6c/de/f0/6cdef076fda0965568ef449dce837fe0.jpg",
       "imageHint": "luxury logo"
     },
     {
       "id": "logo-5",
-      "description": "Creative Circle logo",
-      "imageUrl": "https://images.unsplash.com/photo-1532623034127-3d92b01fb3c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmVhdGl2ZSUyMGxvZ298ZW58MHx8fHwxNzY2MzkwMDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Young Stars logo",
+      "imageUrl": "https://i.pinimg.com/736x/ed/51/e7/ed51e7810fd0a94c7f27fa0fdbf19703.jpg",
       "imageHint": "creative logo"
     },
     {
       "id": "poster-1",
-      "description": "Music Fest 2024 poster",
-      "imageUrl": "https://images.unsplash.com/photo-1610616817237-dff4b556cce6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHBvc3RlcnxlbnwwfHx8fDE3NjY0MDQ2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Closetlux",
+      "imageUrl": "https://i.pinimg.com/736x/7f/26/90/7f2690121fa5ee7556e1d5b584177832.jpg",
       "imageHint": "music poster"
     },
     {
@@ -56,56 +56,56 @@
     },
     {
       "id": "poster-4",
-      "description": "Tech Conference poster",
-      "imageUrl": "https://images.unsplash.com/photo-1724204400833-19548ab66a91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVjaCUyMHBvc3RlcnxlbnwwfHx8fDE3NjY0MDQ2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Etigma poster",
+      "imageUrl": "https://i.pinimg.com/736x/17/20/39/172039e9c2cb5cc82d5b449c141f0fbe.jpg",
       "imageHint": "tech poster"
     },
     {
       "id": "poster-5",
-      "description": "Summer Sale poster",
-      "imageUrl": "https://images.unsplash.com/photo-1700847304964-9fe563059742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWxlJTIwcG9zdGVyfGVufDB8fHx8MTc2NjQwNDY5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "SwiftStep",
+      "imageUrl": "https://i.pinimg.com/736x/bf/fc/cd/bffccd6cc536cd4473855b3210bd706f.jpg",
       "imageHint": "sale poster"
     },
     {
       "id": "poster-6",
-      "description": "Eco Awareness poster",
-      "imageUrl": "https://images.unsplash.com/photo-1707209598587-e290ed839139?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuYXR1cmUlMjBwb3N0ZXJ8ZW58MHx8fHwxNzY2NDA0Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "MEEM SE MOHABBAT",
+      "imageUrl": "https://i.pinimg.com/736x/47/5e/03/475e038019d674675c22cfd6fe40d999.jpg",
       "imageHint": "nature poster"
     },
     {
       "id": "poster-7",
-      "description": "Indie Game Launch poster",
-      "imageUrl": "https://images.unsplash.com/photo-1579798065595-0d8134bf293c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1lJTIwcG9zdGVyfGVufDB8fHx8MTc2NjQwNDY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Grace Trends poster",
+      "imageUrl": "https://i.pinimg.com/736x/e6/25/84/e625841a3bfc0fa4390d4c8ad49bf3ce.jpg",
       "imageHint": "game poster"
     },
     {
       "id": "poster-8",
-      "description": "Poetry Night poster",
-      "imageUrl": "https://images.unsplash.com/photo-1640146459297-eb4f1b084cc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVudCUyMHBvc3RlcnxlbnwwfHx8fDE3NjY0MDQ2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Zam Zam Perfumes",
+      "imageUrl": "https://i.pinimg.com/736x/66/6e/4b/666e4bcc317af184aec76fc235d80f9d.jpg",
       "imageHint": "event poster"
     },
     {
       "id": "ui-1",
-      "description": "Mobile Banking App UI",
-      "imageUrl": "https://images.unsplash.com/photo-1730818027503-1116dc7a27ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcHAlMjBzY3JlZW58ZW58MHx8fHwxNzY2MzQ0MjE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "ZAIB-E-HOOR UI",
+      "imageUrl": "https://i.pinimg.com/736x/e2/58/20/e258203ceb95344c1388614b0415d1ea.jpg",
       "imageHint": "app screen"
     },
     {
       "id": "ui-2",
-      "description": "Travel Booking Website UI",
-      "imageUrl": "https://images.unsplash.com/photo-1559028012-481c04fa702d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8MTc2NjMxMDk5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Clanks Website UI",
+      "imageUrl": "https://i.pinimg.com/736x/b0/69/9c/b0699c73df656f46e054db9cc18878b8.jpg",
       "imageHint": "website design"
     },
     {
       "id": "ui-3",
-      "description": "Fitness Tracker Dashboard UI",
-      "imageUrl": "https://images.unsplash.com/photo-1653933686802-86d21b59b03b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjYzMTAxNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "EBOO UI",
+      "imageUrl": "https://i.pinimg.com/736x/e1/c0/30/e1c0300c1bdf1ae9c87b4d55d94a7c83.jpg",
       "imageHint": "dashboard ui"
     },
     {
       "id": "ui-4",
-      "description": "E-commerce Store UI",
-      "imageUrl": "https://images.unsplash.com/photo-1599824701954-d1d141704de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB1aXxlbnwwfHx8fDE3NjY0MDQ2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "TOPFOXX Store UI",
+      "imageUrl": "https://i.pinimg.com/736x/68/e7/08/68e708e94715819beeeaf85356b41d25.jpg",
       "imageHint": "ecommerce ui"
     },
     {

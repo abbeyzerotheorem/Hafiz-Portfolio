@@ -1,4 +1,5 @@
 
+
 'use client';
 
 import { useState } from 'react';
@@ -9,7 +10,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
 type ProjectWithImage = (typeof projects)[0] & { image: ImagePlaceholder | undefined };
 
@@ -41,6 +42,7 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
         </Card>
       </DialogTrigger>
       <DialogContent className="p-0 border-0 max-w-4xl bg-transparent">
+        <DialogTitle className="sr-only">{project.image.description}</DialogTitle>
         <div className="relative aspect-video">
            <Image
               src={project.image.imageUrl}
