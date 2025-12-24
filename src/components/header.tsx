@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export function Header() {
   return (
@@ -8,8 +9,13 @@ export function Header() {
       "bg-background/30 backdrop-blur-lg border-b border-white/10"
     )}>
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="font-headline text-2xl font-bold text-white hover:text-accent transition-colors duration-300">
-          HAZ
+        <Link href="/" className="relative h-10 w-20">
+          <Image
+            src="https://i.pinimg.com/1200x/32/d3/b3/32d3b3e05b5cd641c8390508bb8755e0.jpg"
+            alt="HAZ Logo"
+            fill
+            className="object-contain"
+          />
         </Link>
         <nav className="hidden md:flex gap-6 items-center text-sm">
           <a href="#projects" className="text-slate-300 hover:text-white transition-colors">Portfolio</a>

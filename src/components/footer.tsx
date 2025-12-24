@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Instagram, Facebook, Linkedin } from 'lucide-react';
+import Image from 'next/image';
 
 const socialLinks = [
   {
@@ -24,7 +25,14 @@ export function Footer() {
     <footer className="py-8 border-t border-white/10 z-10 bg-background/50 backdrop-blur-sm">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-3 text-center md:text-left">
-          <span className="font-headline text-xl font-bold text-white">HAZ</span>
+          <div className="relative h-10 w-20">
+              <Image
+                src="https://i.pinimg.com/1200x/32/d3/b3/32d3b3e05b5cd641c8390508bb8755e0.jpg"
+                alt="HAZ Logo"
+                fill
+                className="object-contain"
+              />
+          </div>
           <p className="text-sm text-slate-400">&copy; {new Date().getFullYear()} Hafiz Ali Zaib. All rights reserved.</p>
         </div>
         <div className="flex gap-2">
