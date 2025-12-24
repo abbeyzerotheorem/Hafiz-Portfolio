@@ -24,7 +24,7 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
                 src={project.image.imageUrl}
-                alt={project.title}
+                alt={project.image.description}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
@@ -33,10 +33,9 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
             </div>
             <div className="p-6">
               <div className="flex justify-between items-start">
-                <h3 className="font-headline text-xl font-bold text-white mb-2">{project.title}</h3>
+                <h3 className="font-headline text-xl font-bold text-white mb-2">{project.image.description}</h3>
                 <Badge variant="outline" className="border-accent/50 text-accent font-mono text-xs transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">{project.category}</Badge>
               </div>
-              <p className="text-slate-400 text-sm transition-opacity duration-300 md:opacity-0 group-hover:opacity-100">{project.description}</p>
             </div>
           </CardContent>
         </Card>
@@ -45,7 +44,7 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
         <div className="relative aspect-video">
            <Image
               src={project.image.imageUrl}
-              alt={project.title}
+              alt={project.image.description}
               fill
               className="object-contain"
             />
@@ -114,7 +113,7 @@ export function ProjectsSection() {
             <Button
               onClick={() => setShowAll(true)}
               size="lg"
-              className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20"
+              className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20"
             >
               View More
             </Button>
