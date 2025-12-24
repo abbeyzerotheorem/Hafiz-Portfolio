@@ -25,12 +25,12 @@ export function Footer() {
     <footer className="py-8 border-t border-white/10 z-10 bg-background/50 backdrop-blur-sm">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-3 text-center md:text-left">
-          <div className="relative h-10 w-20">
+          <div className="relative h-12 w-12 rounded-full overflow-hidden">
               <Image
                 src="https://i.pinimg.com/1200x/32/d3/b3/32d3b3e05b5cd641c8390508bb8755e0.jpg"
                 alt="HAZ Logo"
                 fill
-                className="object-contain"
+                className="object-cover"
               />
           </div>
           <p className="text-sm text-slate-400">&copy; {new Date().getFullYear()} Hafiz Ali Zaib. All rights reserved.</p>
