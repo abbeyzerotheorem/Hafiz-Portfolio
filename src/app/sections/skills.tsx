@@ -10,12 +10,14 @@ import {
   Type,
   LayoutTemplate,
   Star,
+  BrainCircuit,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const skills = [
   { name: 'Logo Design', icon: PenTool },
   { name: 'Brand Identity', icon: Star },
+  { name: 'AI Prompt Engineering', icon: BrainCircuit },
   { name: 'UI/UX Design', icon: LayoutTemplate },
   { name: 'Social Media Posts', icon: Camera },
   { name: 'Poster Design', icon: Clapperboard },

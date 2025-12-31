@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { getImageById } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { FileText } from 'lucide-react';
+import { FileText, Award } from 'lucide-react';
 
 const stats = [
     { value: '50+', label: 'Design Shopify Stores' },
@@ -39,7 +39,7 @@ export function AboutSection() {
                 I'm a Graphic Designer
             </h3>
             <p className="text-lg text-slate-300 max-w-xl mx-auto lg:mx-0 leading-relaxed mb-8">
-              I specialize in logo design and have created professional logos for many brands – all at reasonable prices. I also design social media posts and handle all other graphic design work with creativity and high quality.
+              I specialize in logo design and have created professional logos for many brands – all at reasonable prices. I also design social media posts and handle all other graphic design work with creativity and high quality. Now, I'm also exploring the world of AI Prompt Engineering.
             </p>
             
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-10">
@@ -59,6 +59,12 @@ export function AboutSection() {
                   <a href="/Hafiz.pdf" target="_blank" rel="noopener noreferrer">
                       View CV
                       <FileText className="ml-2 h-4 w-4" />
+                  </a>
+              </Button>
+               <Button asChild size="lg" variant="outline" className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                  <a href="/AI-certificate.pdf" target="_blank" rel="noopener noreferrer">
+                      View Certificate
+                      <Award className="ml-2 h-4 w-4" />
                   </a>
               </Button>
             </div>

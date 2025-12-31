@@ -11,7 +11,7 @@ export function HeroSection() {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left">
           <div className="relative inline-block">
-            <h1 className="font-headline text-6xl md:text-8xl lg:text-9xl font-extrabold text-white uppercase tracking-tighter">
+            <h1 className="font-headline text-6xl md:text-7xl lg:text-8xl font-extrabold text-white uppercase tracking-tighter">
               Graphic
               <br />
               Designer
@@ -20,10 +20,13 @@ export function HeroSection() {
               Hafiz Ali Zaib
             </p>
           </div>
+           <h2 className="font-headline text-2xl md:text-3xl font-semibold text-slate-200 mt-4 tracking-wide">
+            & AI Prompt Engineer
+          </h2>
 
           <div className="mt-8 lg:mt-12 flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-12 justify-center lg:justify-start">
             <p className="text-slate-300 max-w-xs leading-relaxed">
-              Creative designer specializing in impactful brand identities and visual storytelling.
+              Creative designer specializing in impactful brand identities and AI-driven visual storytelling.
             </p>
             <Button asChild variant="link" className="text-accent hover:text-white p-0">
               <Link href="#contact">
