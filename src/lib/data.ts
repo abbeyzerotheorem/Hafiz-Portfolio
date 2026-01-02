@@ -8,6 +8,8 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  { id: 'proj-30', imageId: 'logo-13', title: 'Logo 13', category: 'Logos' },
+    { id: 'proj-31', imageId: 'logo-14', title: 'Logo 14', category: 'Logos' },
     { id: 'proj-1', imageId: 'logo-1', title: 'YOUNG STARS', category: 'Logos' },
     { id: 'proj-2', imageId: 'logo-2', title: 'Bakers Kitchen', category: 'Logos' },
     { id: 'proj-3', imageId: 'logo-3', title: 'ZIM LOGISTICS LTD', category: 'Logos' },
@@ -20,8 +22,6 @@ export const projects: Project[] = [
     { id: 'proj-27', imageId: 'logo-10', title: 'Logo 10', category: 'Logos' },
     { id: 'proj-28', imageId: 'logo-11', title: 'Logo 11', category: 'Logos' },
     { id: 'proj-29', imageId: 'logo-12', title: 'Logo 12', category: 'Logos' },
-    { id: 'proj-30', imageId: 'logo-13', title: 'Logo 13', category: 'Logos' },
-    { id: 'proj-31', imageId: 'logo-14', title: 'Logo 14', category: 'Logos' },
     { id: 'proj-6', imageId: 'poster-1', title: 'Music Fest 2024', category: 'Posters' },
     { id: 'proj-7', imageId: 'poster-2', title: 'Art Exhibition', category: 'Posters' },
     { id: 'proj-8', imageId: 'poster-3', title: 'Film Noir Marathon', category: 'Posters' },
