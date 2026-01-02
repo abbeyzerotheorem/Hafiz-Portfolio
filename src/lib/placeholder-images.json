@@ -8,33 +8,87 @@
     },
     {
       "id": "logo-1",
-      "description": "YOUNG STARS logo",
-      "imageUrl": "https://i.pinimg.com/1200x/7b/3d/d3/7b3dd3ec9dc073a48177efe890288468.jpg",
+      "description": "YOUNG STARS",
+      "imageUrl": "/logos/logo-1.jpg",
       "imageHint": "abstract logo"
     },
     {
       "id": "logo-2",
-      "description": "Bakers Kitchen logo",
-      "imageUrl": "https://i.pinimg.com/736x/a0/7c/08/a07c0809f24d4e2762cfb4c3c5325c02.jpg",
+      "description": "Bakers Kitchen",
+      "imageUrl": "/logos/logo-2.jpg",
       "imageHint": "bakery logo"
     },
     {
       "id": "logo-3",
-      "description": "ZIM LOGISTICS LTD logo",
-      "imageUrl": "https://i.pinimg.com/736x/34/0b/b9/340bb94a70ee9193068bde08ae4a5f60.jpg",
+      "description": "ZIM LOGISTICS LTD",
+      "imageUrl": "/logos/logo-3.jpg",
       "imageHint": "logistics logo"
     },
     {
       "id": "logo-4",
-      "description": "BADAR UL HARMANI logo",
-      "imageUrl": "https://i.pinimg.com/736x/6c/de/f0/6cdef076fda0965568ef449dce837fe0.jpg",
+      "description": "BADAR UL HARMANI",
+      "imageUrl": "/logos/logo-4.jpg",
       "imageHint": "luxury logo"
     },
     {
       "id": "logo-5",
-      "description": "Creative Circle logo",
-      "imageUrl": "https://i.pinimg.com/736x/ed/51/e7/ed51e7810fd0a94c7f27fa0fdbf19703.jpg",
+      "description": "Creative Circle",
+      "imageUrl": "/logos/logo-5.jpg",
       "imageHint": "creative logo"
+    },
+    {
+      "id": "logo-6",
+      "description": "New Logo 6",
+      "imageUrl": "/logos/logo-6.jpg",
+      "imageHint": "abstract logo"
+    },
+    {
+      "id": "logo-7",
+      "description": "New Logo 7",
+      "imageUrl": "/logos/logo-7.jpg",
+      "imageHint": "minimalist logo"
+    },
+    {
+      "id": "logo-8",
+      "description": "New Logo 8",
+      "imageUrl": "/logos/logo-8.jpg",
+      "imageHint": "tech logo"
+    },
+    {
+      "id": "logo-9",
+      "description": "New Logo 9",
+      "imageUrl": "/logos/logo-9.jpg",
+      "imageHint": "bold logo"
+    },
+    {
+      "id": "logo-10",
+      "description": "New Logo 10",
+      "imageUrl": "/logos/logo-10.jpg",
+      "imageHint": "modern logo"
+    },
+    {
+      "id": "logo-11",
+      "description": "New Logo 11",
+      "imageUrl": "/logos/logo-11.jpg",
+      "imageHint": "elegant logo"
+    },
+    {
+      "id": "logo-12",
+      "description": "New Logo 12",
+      "imageUrl": "/logos/logo-12.jpg",
+      "imageHint": "geometric logo"
+    },
+    {
+      "id": "logo-13",
+      "description": "New Logo 13",
+      "imageUrl": "/logos/logo-13.jpg",
+      "imageHint": "classic logo"
+    },
+    {
+      "id": "logo-14",
+      "description": "New Logo 14",
+      "imageUrl": "/logos/logo-14.jpg",
+      "imageHint": "vibrant logo"
     },
     {
       "id": "poster-1",
