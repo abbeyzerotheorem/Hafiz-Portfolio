@@ -24,6 +24,8 @@ export function AboutSection() {
                     src={aboutImage.imageUrl} 
                     alt={aboutImage.description} 
                     fill 
+                    priority
+                    quality={75}
                     className="object-cover rounded-2xl" 
                     data-ai-hint={aboutImage.imageHint} 
                     sizes="(max-width: 640px) 300px, 350px"

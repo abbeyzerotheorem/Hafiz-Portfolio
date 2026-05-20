@@ -3,7 +3,7 @@
     {
       "id": "hero-portrait",
       "description": "Stylish portrait of a designer",
-      "imageUrl": "https://i.pinimg.com/1200x/bb/b8/71/bbb871824ff9958504c3a4b149f42750.jpg",
+      "imageUrl": "/logos/hafiz.jpg",
       "imageHint": "male portrait"
     },
     {
@@ -93,115 +93,115 @@
     {
       "id": "poster-1",
       "description": "Closetlux",
-      "imageUrl": "https://i.pinimg.com/736x/7f/26/90/7f2690121fa5ee7556e1d5b584177832.jpg",
+      "imageUrl": "/logos/Closetlux.jpg",
       "imageHint": "music poster"
     },
     {
       "id": "poster-2",
       "description": "BNB Rice Glow Kit",
-      "imageUrl": "https://i.pinimg.com/736x/b7/8e/96/b78e96ba8115ee79dc3c00246852353c.jpg",
+      "imageUrl": "/logos/BNB.jpg",
       "imageHint": "BNB poster"
     },
     {
       "id": "poster-3",
       "description": "Luxury Package poster",
-      "imageUrl": "https://i.pinimg.com/736x/8b/a8/bc/8ba8bc7fcadb30379d668bb7346dba70.jpg",
+      "imageUrl": "/logos/Luxury.jpg",
       "imageHint": "Luxury Package poster"
     },
     {
       "id": "poster-4",
       "description": "Etigma poster",
-      "imageUrl": "https://i.pinimg.com/736x/17/20/39/172039e9c2cb5cc82d5b449c141f0fbe.jpg",
+      "imageUrl": "/logos/Etigma.jpg",
       "imageHint": "tech poster"
     },
     {
       "id": "poster-5",
       "description": "SwiftStep",
-      "imageUrl": "https://i.pinimg.com/736x/bf/fc/cd/bffccd6cc536cd4473855b3210bd706f.jpg",
+      "imageUrl": "/logos/SwiftStep.jpg",
       "imageHint": "sale poster"
     },
     {
       "id": "poster-6",
       "description": "MEEM SE MOHABBAT",
-      "imageUrl": "https://i.pinimg.com/736x/47/5e/03/475e038019d674675c22cfd6fe40d999.jpg",
+      "imageUrl": "/logos/MEEM.jpg",
       "imageHint": "nature poster"
     },
     {
       "id": "poster-7",
       "description": "Grace Trends poster",
-      "imageUrl": "https://i.pinimg.com/736x/e6/25/84/e625841a3bfc0fa4390d4c8ad49bf3ce.jpg",
-      "imageHint": "game poster"
+      "imageUrl": "/logos/Grace-trends.jpg",
+      "imageHint": "Luxury poster"
     },
     {
       "id": "poster-8",
       "description": "Zam Zam Perfumes",
-      "imageUrl": "https://i.pinimg.com/736x/66/6e/4b/666e4bcc317af184aec76fc235d80f9d.jpg",
+      "imageUrl": "/logos/Zam-Zam.jpg",
       "imageHint": "event poster"
     },
     {
       "id": "ui-1",
       "description": "ZAIB-E-HOOR UI",
-      "imageUrl": "https://i.pinimg.com/736x/e2/58/20/e258203ceb95344c1388614b0415d1ea.jpg",
+      "imageUrl": "/logos/ZAIB.jpg",
       "imageHint": "app screen"
     },
     {
       "id": "ui-2",
       "description": "Clanks Website UI",
-      "imageUrl": "https://i.pinimg.com/736x/b0/69/9c/b0699c73df656f46e054db9cc18878b8.jpg",
+      "imageUrl": "/logos/Clanks.jpg",
       "imageHint": "website design"
     },
     {
       "id": "ui-3",
       "description": "EBOO UI",
-      "imageUrl": "https://i.pinimg.com/736x/e1/c0/30/e1c0300c1bdf1ae9c87b4d55d94a7c83.jpg",
+      "imageUrl": "/logos/EBOO.jpg",
       "imageHint": "dashboard ui"
     },
     {
       "id": "ui-4",
       "description": "TOPFOXX Store UI",
-      "imageUrl": "https://i.pinimg.com/736x/68/e7/08/68e708e94715819beeeaf85356b41d25.jpg",
+      "imageUrl": "/logos/TOPFOXX.jpg",
       "imageHint": "ecommerce ui"
     },
     {
       "id": "brand-1",
       "description": "Zam Zam Perfumes",
-      "imageUrl": "https://i.pinimg.com/736x/4a/e9/ba/4ae9ba4f856038303c6e723f721664a1.jpg",
+      "imageUrl": "/logos/Zam-Zam-Account.jpg",
       "imageHint": "coffee branding"
     },
     {
       "id": "brand-2",
       "description": "Closetlux",
-      "imageUrl": "https://i.pinimg.com/736x/32/7b/4c/327b4cbd1252a0e15c8460476e07035f.jpg",
+      "imageUrl": "/logos/Closetlux-account.jpg",
       "imageHint": "fashion brand"
     },
     {
       "id": "brand-3",
       "description": "ZAIB-E-HOOR",
-      "imageUrl": "https://i.pinimg.com/736x/1b/35/69/1b3569a68bf35d1fb84d9e74111991dc.jpg",
+      "imageUrl": "/logos/ZAIB-E-HOOR.jpg",
       "imageHint": "tech brand"
     },
     {
       "id": "brand-4",
       "description": "Haya Mirza",
-      "imageUrl": "https://i.pinimg.com/736x/05/51/40/0551403ff5d7148d59d20543d7bc0167.jpg",
+      "imageUrl": "/logos/Haya-Mirza.jpg",
       "imageHint": "food branding"
     },
     {
       "id": "brand-5",
       "description": "She Trends",
-      "imageUrl": "https://i.pinimg.com/736x/09/84/5a/09845a32baf6f458669b57ab7d544317.jpg",
+      "imageUrl": "/logos/She-Trends.jpg",
       "imageHint": "fitness brand"
     },
     {
       "id": "about-photo",
       "description": "Professional photo of Hafiz Ali Zaib",
-      "imageUrl": "https://i.pinimg.com/1200x/d6/3b/6f/d63b6fed373eece63aeee874d6cc1f46.jpg",
+      "imageUrl": "/logos/about-hafiz.jpg",
       "imageHint": "professional portrait"
     },
     {
       "id": "education-background",
       "description": "A person in a suit holding a graduation cap, representing education.",
-      "imageUrl": "https://i.pinimg.com/1200x/99/4f/aa/994faa0dd6b172d93ebdd6d0ea758119.jpg",
+      "imageUrl": "/logos/education.jpg",
       "imageHint": "graduation education"
     }
   ]

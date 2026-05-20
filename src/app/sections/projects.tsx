@@ -27,6 +27,8 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
                 src={project.image.imageUrl}
                 alt={project.image.description}
                 fill
+                loading="lazy"
+                quality={65}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
                 data-ai-hint={project.image.imageHint}
@@ -48,6 +50,9 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
               src={project.image.imageUrl}
               alt={project.image.description}
               fill
+              loading="lazy"
+              quality={65}
+              sizes="(max-width: 768px) 100vw, 800px"
               className="object-contain"
             />
         </div>

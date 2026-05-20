@@ -44,6 +44,8 @@ export function HeroSection() {
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
                 fill
+                priority
+                quality={75}
                 className="object-cover rounded-2xl"
                 data-ai-hint={heroImage.imageHint}
                 sizes="(max-width: 640px) 300px, 380px"

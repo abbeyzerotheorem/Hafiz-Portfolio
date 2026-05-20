@@ -52,6 +52,9 @@ export function EducationSection() {
                     src={educationImage.imageUrl} 
                     alt={educationImage.description} 
                     fill 
+                    loading="lazy"
+                    quality={65}
+                    sizes="(max-width: 1024px) 100vw, 45vw"
                     className="object-cover" 
                     data-ai-hint={educationImage.imageHint}
                 />

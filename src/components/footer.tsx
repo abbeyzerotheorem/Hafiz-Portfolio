@@ -27,9 +27,11 @@ export function Footer() {
         <div className="flex items-center gap-3 text-center md:text-left">
           <div className="relative h-12 w-12 rounded-full overflow-hidden">
               <Image
-                src="https://i.pinimg.com/1200x/32/d3/b3/32d3b3e05b5cd641c8390508bb8755e0.jpg"
+                src="/logos/AZ.jpg"
                 alt="HAZ Logo"
-                fill
+                width={48}
+                height={48}
+                quality={60}
                 className="object-cover"
               />
           </div>

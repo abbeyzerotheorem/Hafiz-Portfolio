@@ -11,9 +11,11 @@ export function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="relative h-12 w-12 rounded-full overflow-hidden">
           <Image
-            src="https://i.pinimg.com/1200x/32/d3/b3/32d3b3e05b5cd641c8390508bb8755e0.jpg"
+            src="/logos/AZ.jpg"
             alt="HAZ Logo"
-            fill
+            width={50}
+            height={50}
+            quality={60}
             className="object-cover"
           />
         </Link>
