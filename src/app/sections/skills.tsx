@@ -1,30 +1,44 @@
 'use client';
 
 import {
-  PenTool,
-  Palette,
-  Camera,
-  Monitor,
-  Clapperboard,
-  ShoppingBag,
-  Type,
-  LayoutTemplate,
-  Star,
   BrainCircuit,
+  Palette,
+  ShoppingBag,
+  FileText,
+  Globe,
 } from 'lucide-react';
-import { cn } from '@/lib/utils';
 
-const skills = [
-  { name: 'Logo Design', icon: PenTool },
-  { name: 'Brand Identity', icon: Star },
-  { name: 'AI Prompt Engineering', icon: BrainCircuit },
-  { name: 'UI/UX Design', icon: LayoutTemplate },
-  { name: 'Social Media Posts', icon: Camera },
-  { name: 'Poster Design', icon: Clapperboard },
-  { name: 'Packaging', icon: ShoppingBag },
-  { name: 'Color Theory', icon: Palette },
-  { name: 'Typography', icon: Type },
-  { name: 'Web Design', icon: Monitor },
+const categories = [
+  {
+    title: 'AI & Creative Production',
+    icon: BrainCircuit,
+    items: [
+      'AI Prompt Engineering (AI Tools & Automation)',
+      'AI Cinematic Video Designer',
+      'Video Editing',
+      'Creative Content Writing',
+    ],
+  },
+  {
+    title: 'Design & Branding',
+    icon: Palette,
+    items: ['Canva Designing', 'Logo Designing', 'Branding & Visual Identity'],
+  },
+  {
+    title: 'E-Commerce & Business',
+    icon: ShoppingBag,
+    items: ['Shopify Store Management (A to Z)', 'Digital Marketing', 'Social Media Management'],
+  },
+  {
+    title: 'Business & Administrative Operations',
+    icon: FileText,
+    items: ['Financial Record Keeping', 'Business Documentation & Office Operations'],
+  },
+  {
+    title: 'Travel & Support Services',
+    icon: Globe,
+    items: ['Visa Processing Assistance', 'Travel Booking & Reservation Management'],
+  },
 ];
 
 export function SkillsSection() {
@@ -34,17 +48,25 @@ export function SkillsSection() {
         <h2 className="text-center font-headline text-4xl md:text-5xl font-bold mb-16 text-white">
           My Skills
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-          {skills.map((skill, index) => (
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {categories.map((category, index) => (
             <div
-              key={skill.name}
-              className="group flex flex-col items-center text-center gap-4 animate-float"
-              style={{ animationDelay: `${index * 150}ms` }}
+              key={category.title}
+              className="group rounded-3xl border border-white/10 bg-white/5 p-8 shadow-xl shadow-black/20 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-accent/20"
+              style={{ animationDelay: `${index * 120}ms` }}
             >
-              <div className="w-24 h-24 rounded-full flex items-center justify-center bg-white/10 backdrop-blur-sm border border-white/10 group-hover:bg-accent group-hover:border-accent/50 transition-all duration-300">
-                <skill.icon className="w-12 h-12 text-accent group-hover:text-accent-foreground transition-colors duration-300" />
+              <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-accent shadow-lg shadow-accent/10 transition-all duration-300 group-hover:bg-accent group-hover:text-accent-foreground">
+                <category.icon className="h-7 w-7" />
               </div>
-              <h3 className="font-semibold text-white text-lg">{skill.name}</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">{category.title}</h3>
+              <ul className="space-y-3 text-slate-300">
+                {category.items.map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <span className="mt-1 inline-flex h-2.5 w-2.5 rounded-full bg-accent" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
