@@ -5,9 +5,9 @@ import Link from 'next/link';
 import { FileText, Award } from 'lucide-react';
 
 const stats = [
-    { value: '50+', label: 'Design Shopify Stores' },
-    { value: '300+', label: 'Graphic Designs' },
-    { value: '20+', label: 'Brands Managed' },
+    { value: '100+', label: 'Shopify Stores Designed' },
+    { value: '500+', label: 'Graphic Designs Created' },
+    { value: '50+', label: 'Brands Managed' },
 ];
 
 export function AboutSection() {
@@ -58,13 +58,13 @@ export function AboutSection() {
                   <Link href="#contact">Get in Touch</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20">
-                  <a href="/Hafiz.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/Hafiz_Ali_Zaib_CV_Resume.pdf" target="_blank" rel="noopener noreferrer">
                       View CV
                       <FileText className="ml-2 h-4 w-4" />
                   </a>
               </Button>
                <Button asChild size="lg" variant="outline" className="rounded-full font-bold text-base bg-white/10 backdrop-blur-md border border-white/10 text-white hover:bg-white/20 hover:border-accent transition-all duration-300 shadow-lg hover:shadow-accent/20">
-                  <a href="/AI-certificate.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/certificates.pdf" target="_blank" rel="noopener noreferrer">
                       View Certificate
                       <Award className="ml-2 h-4 w-4" />
                   </a>
