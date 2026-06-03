@@ -3,7 +3,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { projects, ProjectCategory, categoryCounts } from '@/lib/data';
+import { projects, ProjectCategory, categoryCounts } from '../../lib/data';
 import { getImageById, ImagePlaceholder } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
