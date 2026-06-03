@@ -8,6 +8,18 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  { id: 'proj-32', imageId: 'logo-15', title: 'Logo 15', category: 'Logos' },
+  { id: 'proj-33', imageId: 'logo-16', title: 'Logo 16', category: 'Logos' },
+  { id: 'proj-34', imageId: 'logo-17', title: 'Logo 17', category: 'Logos' },
+  { id: 'proj-35', imageId: 'logo-18', title: 'Logo 18', category: 'Logos' },
+  { id: 'proj-36', imageId: 'logo-19', title: 'Logo 19', category: 'Logos' },
+  { id: 'proj-37', imageId: 'logo-20', title: 'Logo 20', category: 'Logos' },
+  { id: 'proj-38', imageId: 'logo-21', title: 'Logo 21', category: 'Logos' },
+  { id: 'proj-39', imageId: 'logo-22', title: 'Logo 22', category: 'Logos' },
+  { id: 'proj-40', imageId: 'logo-23', title: 'Logo 23', category: 'Logos' },
+  { id: 'proj-41', imageId: 'logo-24', title: 'Logo 24', category: 'Logos' },
+  { id: 'proj-42', imageId: 'logo-25', title: 'Logo 25', category: 'Logos' },
+  { id: 'proj-43', imageId: 'logo-26', title: 'Logo 26', category: 'Logos' },
   { id: 'proj-30', imageId: 'logo-13', title: 'Logo 13', category: 'Logos' },
     { id: 'proj-31', imageId: 'logo-14', title: 'Logo 14', category: 'Logos' },
     { id: 'proj-1', imageId: 'logo-1', title: 'YOUNG STARS', category: 'Logos' },
