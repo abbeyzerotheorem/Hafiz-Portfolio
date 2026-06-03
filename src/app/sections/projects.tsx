@@ -10,7 +10,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
-import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle, DialogTrigger, DialogDescription } from '@/components/ui/dialog';
 
 type ProjectWithMedia = (typeof projects)[0] & { image?: ImagePlaceholder };
 
@@ -61,6 +61,7 @@ function ProjectCard({ project }: { project: ProjectWithMedia }) {
       </DialogTrigger>
       <DialogContent className="p-0 border-0 max-w-4xl bg-transparent">
         <DialogTitle className="sr-only">{label}</DialogTitle>
+        <DialogDescription className="sr-only">{hint}</DialogDescription>
         <div className="relative aspect-video bg-black">
           {project.videoUrl ? (
             <video
