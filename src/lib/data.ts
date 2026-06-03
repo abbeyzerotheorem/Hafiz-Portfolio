@@ -67,7 +67,7 @@ export const projects: Project[] = [
     { id: 'proj-61', imageId: 'brand-3', title: 'Innovate Solutions', category: 'Brands Managed' },
     { id: 'proj-62', imageId: 'brand-4', title: 'Greenleaf Organics', category: 'Brands Managed' },
     { id: 'proj-63', imageId: 'brand-5', title: 'Momentum Fitness', category: 'Brands Managed' },
-    { id: 'proj-44', title: 'AZ Graphix Animation', category: '3D Animation', videoUrl: 'https://drive.google.com/uc?export=download&id=15wWJnGiQgNx6bw3_-xNf5rafByGb47A9' },
+    { id: 'proj-44', title: 'AZ Graphix Animation', category: '3D Animation', videoUrl: '/3D_Animations/AZ_Graphix_Veo.mp4' },
     { id: 'proj-45', title: 'Byredo 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Byredo.mp4' },
     { id: 'proj-46', title: 'Creed 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Creed.mp4' },
     { id: 'proj-47', title: 'Louis 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Louis.mp4' },
