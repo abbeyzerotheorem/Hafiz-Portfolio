@@ -1,54 +1,78 @@
 # Hafiz Ali Zaib | Graphic Designer Portfolio
 
-Welcome to the official portfolio of **Hafiz Ali Zaib**, a passionate and creative Graphic Designer specializing in brand identity and visual design. This project showcases a curated selection of his work, skills, and professional background.
+A polished portfolio website for **Hafiz Ali Zaib**, showcasing branding, UI/UX, poster design, brand management, and 3D animation work.
 
-## 🚀 About This Project
+## Overview
 
-This website is a modern, single-page portfolio built to provide a visually engaging and seamless experience for visitors. It highlights Hafiz's expertise in:
+This project is a modern Next.js portfolio built for fast performance and a smooth interactive experience. It highlights creative work through:
 
-*   Logo & Brand Identity Design
-*   UI/UX & Web Design
-*   Poster & Social Media Graphics
+- Logo & brand identity design
+- Poster and social media graphics
+- UI/UX design work
+- Brand management and campaign visuals
+- 3D animation showcase videos
 
-The site was built from the ground up using a modern tech stack to ensure it's fast, responsive, and easy to maintain.
+## Key Features
 
-## 🛠️ Tech Stack
+- Responsive single-page portfolio layout
+- Filterable project categories
+- Image and video project previews
+- Animated UI interactions
+- Built with a modern React + Next.js stack
 
-*   **Framework:** [Next.js](https://nextjs.org/)
-*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-*   **UI Components:** [ShadCN](https://ui.shadcn.com/)
-*   **Animations:** [Framer Motion](https://www.framer.com/motion/) (via Tailwind CSS animations)
-*   **Icons:** [Lucide React](https://lucide.dev/)
+## Tech Stack
 
-## 🏁 Getting Started
+- **Next.js** 15.5.9 with Turbopack support
+- **React** 19
+- **Tailwind CSS** for styling
+- **ShadCN UI** component system
+- **Lucide React** icons
+- **TypeScript** for typed development
 
-To get a local copy up and running, follow these simple steps.
+## Project Structure
+
+- `src/app` — main application pages and sections
+- `src/lib` — application data and utility modules
+- `src/components` — reusable UI components
+- `public` — static assets, including `/3D_Animations`
+
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have Node.js (v18 or higher) and npm installed on your machine.
+- Node.js 18 or later
+- npm
 
-### Installation & Running
+### Install
 
-1.  **Clone the repository:**
-    ```sh
-    git clone <your-repo-url>
-    ```
-2.  **Navigate to the project directory:**
-    ```sh
-    cd <project-folder-name>
-    ```
-3.  **Install NPM packages:**
-    ```sh
-    npm install
-    ```
-4.  **Run the development server:**
-    ```sh
-    npm run dev
-    ```
+```sh
+git clone https://github.com/abbeyzerotheorem/Hafiz-Portfolio.git
+cd Hafiz-Portfolio
+npm install
+```
 
-Open [http://localhost:9002](http://localhost:9002) with your browser to see the result. You can start editing the main page by modifying `src/app/page.tsx`.
+### Run locally
 
----
+```sh
+npm run dev
+```
 
-Thanks for checking out the project! If you have any questions or want to collaborate, feel free to get in touch.
+Open [http://localhost:9002](http://localhost:9002) in your browser.
+
+## Useful Scripts
+
+- `npm run dev` — start development server on port `9002`
+- `npm run build` — create a production build
+- `npm run start` — start the production server
+- `npm run lint` — run Next.js linting
+- `npm run typecheck` — run TypeScript type checking
+
+## Notes
+
+- The portfolio now includes a `3D Animation` category powered by video assets stored in `public/3D_Animations`.
+- Use `src/lib/data.ts` to add or update portfolio entries.
+- Media and category behavior are handled in `src/app/sections/projects.tsx`.
+
+## Contact
+
+If you want to collaborate or learn more about the work, connect with Hafiz through the portfolio contact section.

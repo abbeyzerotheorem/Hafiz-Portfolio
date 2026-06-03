@@ -1,10 +1,11 @@
-export type ProjectCategory = 'Logos' | 'Posters' | 'UI Design' | 'Brands Managed';
+export type ProjectCategory = 'Logos' | 'Posters' | 'UI Design' | 'Brands Managed' | '3D Animation';
 
 export interface Project {
   id: string;
   title: string;
   category: ProjectCategory;
-  imageId: string;
+  imageId?: string;
+  videoUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -44,7 +45,7 @@ export const projects: Project[] = [
             { id: 'proj-20', imageId: 'poster-16', title: 'Poetry Night', category: 'Posters' },
              { id: 'proj-21', imageId: 'poster-17', title: 'Poetry Night', category: 'Posters' },
               { id: 'proj-22', imageId: 'poster-18', title: 'Poetry Night', category: 'Posters' },
-{ id: 'proj-23', imageId: 'poster-19', title: 'Poetry Night', category: 'Posters' },
+{ id: 'proj-50', imageId: 'poster-19', title: 'Poetry Night', category: 'Posters' },
     { id: 'proj-6', imageId: 'poster-1', title: 'Music Fest 2024', category: 'Posters' },
     { id: 'proj-7', imageId: 'poster-2', title: 'Art Exhibition', category: 'Posters' },
     { id: 'proj-8', imageId: 'poster-3', title: 'Film Noir Marathon', category: 'Posters' },
@@ -52,21 +53,26 @@ export const projects: Project[] = [
     { id: 'proj-10', imageId: 'poster-5', title: 'Summer Sale', category: 'Posters' },
     { id: 'proj-11', imageId: 'poster-6', title: 'Eco Awareness', category: 'Posters' },
     { id: 'proj-12', imageId: 'poster-7', title: 'Indie Game Launch', category: 'Posters' },
-    { id: 'proj-13', imageId: 'poster-8', title: 'Poetry Night', category: 'Posters' },
-    { id: 'proj-14', imageId: 'ui-1', title: 'Mobile Banking App', category: 'UI Design' },
+    { id: 'proj-51', imageId: 'poster-8', title: 'Poetry Night', category: 'Posters' },
+    { id: 'proj-52', imageId: 'ui-1', title: 'Mobile Banking App', category: 'UI Design' },
     { id: 'proj-15', imageId: 'ui-2', title: 'Travel Booking Website', category: 'UI Design' },
-    { id: 'proj-16', imageId: 'ui-3', title: 'Fitness Tracker Dashboard', category: 'UI Design' },
-    { id: 'proj-17', imageId: 'ui-4', title: 'E-commerce Store UI', category: 'UI Design' },
-    { id: 'proj-23', imageId: 'brand-6', title: 'DHA_Cinema', category: 'Brands Managed' },
-    { id: 'proj-25', imageId: 'brand-8', title: 'She Trends', category: 'Brands Managed' },
-    { id: 'proj-26', imageId: 'brand-9', title: 'She Trends', category: 'Brands Managed' },
-    { id: 'proj-24', imageId: 'brand-7', title: 'She Trends', category: 'Brands Managed' },
-    { id: 'proj-18', imageId: 'brand-1', title: 'Starlight Coffee', category: 'Brands Managed' },
-    { id: 'proj-19', imageId: 'brand-2', title: 'Urban Edge Apparel', category: 'Brands Managed' },
-    { id: 'proj-20', imageId: 'brand-3', title: 'Innovate Solutions', category: 'Brands Managed' },
-    { id: 'proj-21', imageId: 'brand-4', title: 'Greenleaf Organics', category: 'Brands Managed' },
-    { id: 'proj-22', imageId: 'brand-5', title: 'Momentum Fitness', category: 'Brands Managed' },
-    
+    { id: 'proj-53', imageId: 'ui-3', title: 'Fitness Tracker Dashboard', category: 'UI Design' },
+    { id: 'proj-54', imageId: 'ui-4', title: 'E-commerce Store UI', category: 'UI Design' },
+    { id: 'proj-55', imageId: 'brand-6', title: 'DHA_Cinema', category: 'Brands Managed' },
+    { id: 'proj-56', imageId: 'brand-8', title: 'She Trends', category: 'Brands Managed' },
+    { id: 'proj-57', imageId: 'brand-9', title: 'She Trends', category: 'Brands Managed' },
+    { id: 'proj-58', imageId: 'brand-7', title: 'She Trends', category: 'Brands Managed' },
+    { id: 'proj-59', imageId: 'brand-1', title: 'Starlight Coffee', category: 'Brands Managed' },
+    { id: 'proj-60', imageId: 'brand-2', title: 'Urban Edge Apparel', category: 'Brands Managed' },
+    { id: 'proj-61', imageId: 'brand-3', title: 'Innovate Solutions', category: 'Brands Managed' },
+    { id: 'proj-62', imageId: 'brand-4', title: 'Greenleaf Organics', category: 'Brands Managed' },
+    { id: 'proj-63', imageId: 'brand-5', title: 'Momentum Fitness', category: 'Brands Managed' },
+    { id: 'proj-44', title: 'AZ Graphix Animation', category: '3D Animation', videoUrl: '/3D_Animations/AZ_Graphix_Veo.mp4' },
+    { id: 'proj-45', title: 'Byredo 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Byredo.mp4' },
+    { id: 'proj-46', title: 'Creed 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Creed.mp4' },
+    { id: 'proj-47', title: 'Louis 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Louis.mp4' },
+    { id: 'proj-48', title: 'Tesla 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Tesla.mp4' },
+    { id: 'proj-49', title: 'Worisando 3D Animation', category: '3D Animation', videoUrl: '/3D_Animations/Worisando.mp4' },
 ];
 
 export const caseStudyLogoIds = ['logo-1', 'logo-2', 'logo-3', 'logo-4'];
@@ -76,5 +82,6 @@ export const categoryCounts = {
     'Logos': projects.filter(p => p.category === 'Logos').length,
     'Posters': projects.filter(p => p.category === 'Posters').length,
     'UI Design': projects.filter(p => p.category === 'UI Design').length,
-    'Brands Managed': projects.filter(p => p.category === 'Brands Managed').length
+    'Brands Managed': projects.filter(p => p.category === 'Brands Managed').length,
+  '3D Animation': projects.filter(p => p.category === '3D Animation').length
   };

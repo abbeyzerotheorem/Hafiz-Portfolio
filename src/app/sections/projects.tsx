@@ -2,7 +2,7 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { projects, ProjectCategory, categoryCounts } from '@/lib/data';
 import { getImageById, ImagePlaceholder } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
@@ -12,31 +12,45 @@ import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
-type ProjectWithImage = (typeof projects)[0] & { image: ImagePlaceholder | undefined };
+type ProjectWithMedia = (typeof projects)[0] & { image?: ImagePlaceholder };
 
-function ProjectCard({ project }: { project: ProjectWithImage }) {
-  if (!project.image) return null;
+function ProjectCard({ project }: { project: ProjectWithMedia }) {
+  if (!project.image && !project.videoUrl) return null;
+
+  const label = project.image?.description ?? project.title;
+  const hint = project.image?.imageHint ?? project.title;
 
   return (
     <Dialog>
       <DialogTrigger asChild>
         <Card className="group overflow-hidden rounded-2xl bg-white/[.08] backdrop-blur-[12px] border border-white/[.1] shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-accent/20 hover:border-accent/50 cursor-pointer">
           <CardContent className="p-0">
-            <div className="relative aspect-[4/3] overflow-hidden">
-              <Image
-                src={project.image.imageUrl}
-                alt={project.image.description}
-                fill
-                loading="lazy"
-                quality={65}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
-                data-ai-hint={project.image.imageHint}
-              />
+            <div className="relative aspect-[4/3] overflow-hidden bg-slate-950">
+              {project.videoUrl ? (
+                <video
+                  src={project.videoUrl}
+                  muted
+                  autoPlay
+                  loop
+                  playsInline
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <Image
+                  src={project.image!.imageUrl}
+                  alt={project.image!.description}
+                  fill
+                  loading="lazy"
+                  quality={65}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
+                  data-ai-hint={project.image!.imageHint}
+                />
+              )}
             </div>
             <div className="p-6">
               <div className="flex justify-between items-start">
-                <h3 className="font-headline text-xl font-bold text-white mb-2">{project.image.description}</h3>
+                <h3 className="font-headline text-xl font-bold text-white mb-2">{label}</h3>
                 <Badge variant="outline" className="border-accent/50 text-accent font-mono text-xs transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">{project.category}</Badge>
               </div>
             </div>
@@ -44,17 +58,25 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
         </Card>
       </DialogTrigger>
       <DialogContent className="p-0 border-0 max-w-4xl bg-transparent">
-        <DialogTitle className="sr-only">{project.image.description}</DialogTitle>
-        <div className="relative aspect-video">
-           <Image
-              src={project.image.imageUrl}
-              alt={project.image.description}
+        <DialogTitle className="sr-only">{label}</DialogTitle>
+        <div className="relative aspect-video bg-black">
+          {project.videoUrl ? (
+            <video
+              controls
+              src={project.videoUrl}
+              className="h-full w-full object-contain"
+            />
+          ) : (
+            <Image
+              src={project.image!.imageUrl}
+              alt={project.image!.description}
               fill
               loading="lazy"
               quality={65}
               sizes="(max-width: 768px) 100vw, 800px"
               className="object-contain"
             />
+          )}
         </div>
       </DialogContent>
     </Dialog>
@@ -63,7 +85,7 @@ function ProjectCard({ project }: { project: ProjectWithImage }) {
 
 
 export function ProjectsSection() {
-  const categories: ('All' | ProjectCategory)[] = ['All', 'Logos', 'Posters', 'UI Design', 'Brands Managed'];
+  const categories: ('All' | ProjectCategory)[] = ['All', 'Logos', 'Posters', 'UI Design', 'Brands Managed', '3D Animation'];
   const [activeCategory, setActiveCategory] = useState<'All' | ProjectCategory>('All');
   const [showAll, setShowAll] = useState(false);
   const initialProjectCount = 6;
@@ -73,10 +95,22 @@ export function ProjectsSection() {
     setShowAll(false);
   }
 
-  const allProjects = projects.map(p => ({ ...p, image: getImageById(p.imageId) }));
+  const allProjects = useMemo(
+    () => projects.map(p => ({ ...p, image: p.imageId ? getImageById(p.imageId) : undefined })),
+    []
+  );
+
+  const shuffledAllProjects = useMemo(() => {
+    const items = [...allProjects];
+    for (let i = items.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    return items;
+  }, [activeCategory, allProjects]);
 
   const filteredProjects = activeCategory === 'All'
-    ? allProjects
+    ? shuffledAllProjects
     : allProjects.filter(p => p.category === activeCategory);
 
   const visibleProjects = activeCategory === 'All' && !showAll 
@@ -111,7 +145,7 @@ export function ProjectsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {visibleProjects.map(project => (
-            project.image && <ProjectCard key={project.id} project={project} />
+            (project.image || project.videoUrl) && <ProjectCard key={project.id} project={project} />
           ))}
         </div>
 
