@@ -28,13 +28,15 @@ function ProjectCard({ project }: { project: ProjectWithMedia }) {
             <div className="relative aspect-[4/3] overflow-hidden bg-slate-950">
               {project.videoUrl ? (
                 <video
-                  src={project.videoUrl}
                   muted
                   autoPlay
                   loop
                   playsInline
+                  preload="metadata"
                   className="h-full w-full object-cover"
-                />
+                >
+                  <source src={project.videoUrl} type="video/mp4" />
+                </video>
               ) : (
                 <Image
                   src={project.image!.imageUrl}
@@ -63,9 +65,11 @@ function ProjectCard({ project }: { project: ProjectWithMedia }) {
           {project.videoUrl ? (
             <video
               controls
-              src={project.videoUrl}
+              preload="metadata"
               className="h-full w-full object-contain"
-            />
+            >
+              <source src={project.videoUrl} type="video/mp4" />
+            </video>
           ) : (
             <Image
               src={project.image!.imageUrl}
