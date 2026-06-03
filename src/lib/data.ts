@@ -34,11 +34,16 @@ export const projects: Project[] = [
     { id: 'proj-15', imageId: 'ui-2', title: 'Travel Booking Website', category: 'UI Design' },
     { id: 'proj-16', imageId: 'ui-3', title: 'Fitness Tracker Dashboard', category: 'UI Design' },
     { id: 'proj-17', imageId: 'ui-4', title: 'E-commerce Store UI', category: 'UI Design' },
+    { id: 'proj-23', imageId: 'brand-6', title: 'DHA_Cinema', category: 'Brands Managed' },
+    { id: 'proj-25', imageId: 'brand-8', title: 'She Trends', category: 'Brands Managed' },
+    { id: 'proj-26', imageId: 'brand-9', title: 'She Trends', category: 'Brands Managed' },
+    { id: 'proj-24', imageId: 'brand-7', title: 'She Trends', category: 'Brands Managed' },
     { id: 'proj-18', imageId: 'brand-1', title: 'Starlight Coffee', category: 'Brands Managed' },
     { id: 'proj-19', imageId: 'brand-2', title: 'Urban Edge Apparel', category: 'Brands Managed' },
     { id: 'proj-20', imageId: 'brand-3', title: 'Innovate Solutions', category: 'Brands Managed' },
     { id: 'proj-21', imageId: 'brand-4', title: 'Greenleaf Organics', category: 'Brands Managed' },
     { id: 'proj-22', imageId: 'brand-5', title: 'Momentum Fitness', category: 'Brands Managed' },
+    
 ];
 
 export const caseStudyLogoIds = ['logo-1', 'logo-2', 'logo-3', 'logo-4'];

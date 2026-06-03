@@ -3,6 +3,7 @@ import { Footer } from '@/components/footer';
 import { ParallaxBackground } from '@/components/parallax-background';
 import { HeroSection } from '@/app/sections/hero';
 import { ProjectsSection } from '@/app/sections/projects';
+import { ServicesSection } from '@/app/sections/services';
 import { AboutSection } from '@/app/sections/about';
 import { SkillsSection } from '@/app/sections/skills';
 import { ContactSection } from '@/app/sections/contact';
@@ -21,6 +22,7 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
+        <ServicesSection />
         <EducationSection />
         <ContactSection />
       </main>

@@ -21,6 +21,7 @@ export function Header() {
         </Link>
         <nav className="hidden md:flex gap-6 items-center text-sm">
           <a href="#projects" className="text-slate-300 hover:text-white transition-colors">Portfolio</a>
+          <a href="#services" className="text-slate-300 hover:text-white transition-colors">Services</a>
           <a href="#about" className="text-slate-300 hover:text-white transition-colors">About</a>
           <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a>
         </nav>
